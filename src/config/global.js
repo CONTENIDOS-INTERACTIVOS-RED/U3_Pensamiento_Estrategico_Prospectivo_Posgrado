@@ -15,24 +15,41 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Estrategias para la implementación de Sistema de Gestión de Seguridad y Salud en el Trabajo',
+        titulo: 'Innovación y creatividad en la estrategia',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Fundamentos de la innovación estratégica',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Creatividad aplicada al desarrollo sostenible',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Herramientas para fomentar la creatividad',
+            hash: 't_1_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          'Monitoreo y evaluación de programas de seguridad y salud en el trabajo',
+        titulo: 'Desarrollo sostenible y responsabilidad social',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo:
-          'Estrategias para el fomento de una cultura de seguridad en el trabajo',
+        titulo: 'Evaluación de la viabilidad de estrategias a largo plazo',
         desarrolloContenidos: true,
       },
       {

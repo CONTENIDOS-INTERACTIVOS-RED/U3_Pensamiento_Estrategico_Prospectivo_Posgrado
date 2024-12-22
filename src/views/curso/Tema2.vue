@@ -4,10 +4,10 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .row.mb-5
-      .col-lg-5
+      .col-lg-4
         figure
           img(src="@/assets/curso/tema2/1.png", data-aos="zoom-in").mb-4.mb-lg-0
-      .col-lg-7
+      .col-lg-8
         .bg-color-7.p-4(data-aos="fade-left").mb-4
           .row.align-items-start
             .col-lg-auto

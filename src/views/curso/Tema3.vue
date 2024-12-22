@@ -1,13 +1,13 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'3. Evaluación de la viabilidad de estrategias a largo plazo'")
-  .container.tarjeta.tarjeta--blanca.px-4.px-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     .row.mb-5
-      .col-lg-5.order-lg-2
+      .col-lg-4.order-lg-2
         figure
           img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in").mb-4.mb-lg-0
-      .col-lg-7.order-lg-1
+      .col-lg-8.order-lg-1
         p(data-aos="fade-left").mb-4 La evaluación de la #[b viabilidad de estrategias a largo plazo], es fundamental para determinar si las iniciativas estratégicas pueden sostenerse y ser efectivas con el tiempo. 
 
         .bg-color-1.p-4(data-aos="fade-left").mb-4
