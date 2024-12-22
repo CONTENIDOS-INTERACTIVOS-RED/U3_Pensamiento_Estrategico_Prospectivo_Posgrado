@@ -22,11 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los desafíos del mundo laboral actual, la gestión efectiva de la seguridad y salud en el trabajo se presenta como un componente clave para el bienestar y la productividad. En esta unidad, exploraremos estrategias para implementar un Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST), con enfoque en el contexto colombiano y alineado a estándares como la norma ISO 45001.
-
-              p.descripcion.mb-4 Los temas abordarán desde la identificación de riesgos hasta la promoción de una cultura de prevención, buscando que las organizaciones no solo cumplan con las normativas legales, sino que también fomenten un entorno laboral saludable. 
+              p.descripcion.mb-4 En un entorno global donde los cambios sociales, ambientales y tecnológicos son constantes, las organizaciones deben innovar para garantizar su sostenibilidad y relevancia. Esta unidad explora cómo integrar la sostenibilidad en las estrategias empresariales, fomentando el desarrollo económico, social y ambiental. Aprenderás a identificar oportunidades de innovación, aplicar herramientas analíticas y comprender la importancia de la responsabilidad social corporativa para transformar las organizaciones hacia un impacto positivo sostenible.
               
-              p #[b ¡Prepárate para liderar la transformación hacia un entorno laboral seguro y saludable!]
+              p #[b ¡Prepárate para impulsar el cambio en un mundo en evolución constante con visión estratégica y creativa!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -74,7 +72,7 @@ export default {
   .home-main-title
     font-size: 18px
     font-weight: bold
-    color: $color-institucional
+    color: #26617A
   .home-content
     background-color: white
   .info-section
@@ -108,7 +106,7 @@ export default {
         background-color: $color-acento-botones
         padding: 12px 42px 12px 32px
         width: 100%
-        color: #fff
+        color: #fff !important
     .icon
       background-color: $color-sistema-e
       padding: 0px 20px

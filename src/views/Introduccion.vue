@@ -1,49 +1,35 @@
 <template lang="pug">
 .curso-main-container.introduccion
   BannerInterno(subTitulo="Introducción")
-  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
-    .row.mb-5
-      .col-lg-4.order-2
+    .row.mb-4
+      .col-lg-4
         figure
           img(src="@/assets/curso/intro/1.png", data-aos="zoom-in")
-      .col-lg-8.order-1
-        p(data-aos="fade-left") En el contexto actual, la implementación de estrategias efectivas para el Sistema de Gestión de Seguridad y Salud en el Trabajo, se ha convertido en una necesidad imperante, tanto en el sector público como en el privado. En Colombia, la creciente conciencia sobre la importancia del bienestar laboral y la protección de los trabajadores, ha impulsado a las organizaciones para que adopten enfoques proactivos que aseguren un entorno seguro y saludable. La normativa nacional y los estándares internacionales, como la norma ISO 45001, han sido fundamentales en la creación de marcos que guían a las empresas hacia una gestión integral de la seguridad y salud laboral, contribuyendo así al éxito sostenible.
+      .col-lg-8
 
-        .bg-color-1.p-4(data-aos="fade-left")
-          .row.align-items-center
-            .col-lg-auto
-              img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0 Esta unidad de aprendizaje tiene como objetivo desarrollar un entendimiento profundo acerca de las estrategias que facilitan la implementación del Sistema de Gestión de Seguridad y Salud en el Trabajo, en el contexto colombiano. 
+        .bg-color-1.p-4(data-aos="fade-left").mb-4
+          p(data-aos="fade-left").mb-0 En un mundo donde los cambios sociales, ambientales y tecnológicos son constantes, las organizaciones enfrentan la necesidad imperiosa de transformarse para mantenerse competitivas y relevantes. La sostenibilidad se convierte en un eje fundamental en esta transformación, dado que no solo busca generar valor económico, sino también aportar beneficios a la sociedad y proteger el medio ambiente. En esta unidad, exploraremos la innovación estratégica como el camino hacia el desarrollo sostenible, analizando cómo las empresas pueden adoptar enfoques innovadores que respondan a las demandas actuales, sin comprometer los recursos de futuras generaciones.
 
-    p Nos proponemos explorar no solo las características y beneficios que proporciona este sistema, sino también cómo estas estrategias pueden adaptarse a las realidades sectoriales y regionales del país. Desde la identificación de peligros y la evaluación de riesgos, hasta el desarrollo de planes de acción y la promoción de una cultura de seguridad, estas estrategias son esenciales para mejorar la salud ocupacional y reducir la siniestralidad laboral.
+        p(data-aos="fade-left") La Unidad 3 se centra en desarrollar la capacidad para diseñar y evaluar estrategias innovadoras que integren la sostenibilidad desde múltiples perspectivas: económica, social y ambiental. 
 
-    p En la presente unidad se realizarán las siguientes actividades:
 
-    .bg-full-width.bg-fondo-slider
-      .p-4.p-md-5
-        SlyderA(tipo="b").bg-white
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5
-              figure
-                img(src="@/assets/curso/intro/slider-1.png")
-            .col-lg-7
-              h5 Examinar
-              p Examinaremos cómo las organizaciones pueden integrar el sistema de gestión de seguridad y salud en el trabajo de manera efectiva, dentro de sus operaciones. En un país con una diversidad de sectores económicos y una población laboral variada, es crucial que las prácticas de seguridad y salud en el trabajo sean inclusivas y estén alineadas con las particularidades de cada sector. Esta reflexión subraya la importancia de promover un ambiente laboral que no solo cumpla con las normativas, sino que también valore el bienestar de los empleados, como un componente clave del éxito organizacional.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5
-              figure
-                img(src="@/assets/curso/intro/slider-2.png")
-            .col-lg-7
-              h5 Discutir
-              p Discutiremos sobre el impacto de las estrategias de implementación del Sistema de Gestión de Seguridad y Salud en el Trabajo, en el cumplimiento de objetivos más amplios, como el bienestar social y la calidad de vida de los trabajadores. Las empresas en Colombia, tienen un papel fundamental en la promoción de ambientes laborales seguros y saludables, trascendiendo la mera obligación legal para convertirse en actores comprometidos con el desarrollo social. La revisión de casos prácticos locales nos brindará herramientas para comprender y aplicar efectivamente, estas estrategias en contextos reales.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5
-              figure
-                img(src="@/assets/curso/intro/slider-3.png")
-            .col-lg-7
-              h5 Organizar
-              p Organizaremos un espacio de reflexión crítica y análisis colaborativo. Se espera que los participantes desarrollen habilidades analíticas y creativas en la formulación de estrategias para la implementación del Sistema de Gestión de Seguridad y Salud en el Trabajo, mediante un enfoque que fomente la mejora continua y la innovación en las prácticas de seguridad y salud laboral. A través de actividades teóricas y prácticas, se incentivará la capacidad de identificar soluciones efectivas y adecuadas a los desafíos específicos, que enfrentan las organizaciones en Colombia.
+
+    .bg-color-2.p-4(data-aos="fade-left").mb-5
+      .row.align-items-center
+        .col-lg-auto
+          img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
+        .col-lg
+          p.mb-0 A través de herramientas analíticas, casos prácticos y dinámicas colaborativas, se comprenderá cómo la innovación puede convertirse en un motor de cambio positivo, tanto para la organización como para las comunidades en las que opera.  
+
+    .row.justify-content-center.align-items-start.mb-5
+      .col-lg-8
+        .bg-color-3.p-4(data-aos="fade-left").mb-4
+          p(data-aos="fade-left").mb-0 Además, se profundizará en la importancia de la responsabilidad social corporativa y su relación con la ventaja competitiva, en un mercado cada vez más exigente.
+          p(data-aos="fade-left").mb-0 A lo largo de esta unidad, se aprenderá a identificar oportunidades de innovación, gestionar la complejidad inherente a los procesos de sostenibilidad e implementar estrategias que favorezcan un desarrollo sostenible a largo plazo. Al finalizar, se estará preparado para justificar y aplicar conceptos de sostenibilidad en la práctica empresarial, promoviendo el cambio y adaptando la visión estratégica, a las nuevas realidades del entorno global.
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/intro/3.png", data-aos="zoom-in")
 
 </template>

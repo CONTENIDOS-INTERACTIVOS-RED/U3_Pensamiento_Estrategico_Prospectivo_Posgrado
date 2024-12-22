@@ -1,32 +1,44 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'3. Estrategias para el fomento de una cultura de seguridad en el trabajo'")
+  BannerInterno(:subTitulo="'3. Evaluación de la viabilidad de estrategias a largo plazo'")
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5
 
-    .bg-full-width.bg-color-1
-      .p-4.p-md-5
-        .row.align-items-center
-          .col-lg-auto
-            img(src="@/assets/curso/tema3/1.svg", style="max-width: 90px").mx-auto
-          .col-lg
-            p.mb-0 Fomentar una cultura de seguridad en el trabajo es esencial para garantizar un entorno laboral protegido y eficiente. Se utilizan estrategias prácticas como la formación continua, la comunicación efectiva y el compromiso de la alta dirección para promover la prevención de riesgos y fortalecer el bienestar de los empleados. A través de estas iniciativas, las organizaciones pueden integrar la seguridad como un valor fundamental, impulsando la productividad y la satisfacción laboral.
+    .row.mb-5
+      .col-lg-5.order-lg-2
+        figure
+          img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in").mb-4.mb-lg-0
+      .col-lg-7.order-lg-1
+        p(data-aos="fade-left").mb-4 La evaluación de la #[b viabilidad de estrategias a largo plazo], es fundamental para determinar si las iniciativas estratégicas pueden sostenerse y ser efectivas con el tiempo. 
 
-    .bg-full-width.bg-color-6.border-top.color-secundario
-      .px-4.p-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-8
-            h2.mb-4(data-aos="flip-up") Estrategias para el fomento de una cultura de seguridad en el trabajo
-            p.mb-4(data-aos="fade-right") La promoción de una cultura de seguridad en el trabajo es un pilar esencial para garantizar un entorno laboral seguro, saludable y productivo. En el PDF Estrategias para el fomento de una cultura de seguridad en el trabajo, se exploran estrategias clave para fomentar esta cultura, desde la formación continua y la comunicación efectiva, hasta la integración de tecnologías innovadoras y la participación activa de los empleados. A través de estas iniciativas, se busca no solo cumplir con las normativas vigentes, sino también construir un ambiente laboral en el que la seguridad sea un valor compartido, promoviendo el bienestar de los trabajadores y fortaleciendo el desempeño organizacional. Este material está diseñado para ofrecer una visión integral y práctica, impulsando a las organizaciones hacia la excelencia en seguridad laboral.
+        .bg-color-1.p-4(data-aos="fade-left").mb-4
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema3/2.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Esta evaluación considera diversos factores económicos, sociales y ambientales, asegurando que las decisiones sean sólidas y adaptativas a las condiciones cambiantes del entorno.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
-              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
-                img(src="@/assets/template/icono-pdf.svg")
-              .anexo__texto
-                p <strong>Anexo. </strong> Estrategias para el fomento de una cultura de seguridad en el trabajo
+        p(data-aos="fade-left") #[b Los componentes claves de la evaluación, son:]
 
-          .col-lg-4
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema4/1.png', alt='')
+    .row.align-items-center.mb-5.pb-4
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema3/3.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+      .col-lg-8
+        LineaTiempoD.color-primario.large(data-aos="fade-left")
+          div(numero="1" titulo="Análisis de factibilidad económica")
+            p Este análisis se enfoca en el retorno de la inversión (ROI), los costos asociados, y la escalabilidad de la estrategia. Según Sánchez González (2018), "una evaluación financiera sólida es esencial para asegurar la sostenibilidad económica a largo plazo". Herramientas como el análisis de flujo de caja descontado, permiten prever los beneficios futuros y determinar si los recursos financieros serán suficientes.
+
+          div(numero="2" titulo="Impacto ambiental y social")
+            p Evaluar los efectos ambientales y sociales, implica medir la huella de carbono y los beneficios para las comunidades locales. Boada y Cardona Montoya (2020), destacan que "el éxito de una estrategia a largo plazo depende de su capacidad para generar un impacto positivo en el entorno y en las personas afectadas". El cumplimiento de las regulaciones ambientales y la aceptación por parte de las comunidades son cruciales para la viabilidad.
+
+          div(numero="3" titulo="Análisis de riesgos y oportunidades")
+            p La identificación y gestión de riesgos ayuda a preparar a la organización para enfrentar desafíos futuros. Bas Amorós (2013), sugiere que "las empresas deben anticipar cambios regulatorios y tecnológicos, creando planes de mitigación que protejan sus estrategias". Al mismo tiempo, identificar oportunidades como avances tecnológicos o incentivos gubernamentales, puede fortalecer la estrategia.
+
+          div(numero="4" titulo="Simulación de escenarios y análisis de sensibilidad")
+            p Utilizar simulaciones permite prever cómo las variaciones en las condiciones de mercado, podrían afectar la estrategia. El análisis de sensibilidad, como menciona López Segrera et al. (2004), "es vital para entender qué variables son críticas y cómo pequeños cambios pueden tener un impacto significativo".
+
+          div(numero="5" titulo="Consulta y retroalimentación de <em>stakeholders</em>")
+            p La participación de las partes interesadas es crucial. López Fernández (2016), enfatiza que "la retroalimentación de los <em>stakeholders</em> aporta una perspectiva externa que puede revelar aspectos que no se habían considerado internamente". Asegurar la transparencia y mantener una comunicación abierta con los <em>stakeholders</em>, ayuda a ganar su apoyo.
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -35,23 +47,41 @@
           .col-12.col-md-6.col-lg-7
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
 
-            //- Referencia con enlace 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/53622" target="_blank" rel="noopener noreferrer") ISO (Organización Internacional de Normalización). (2017). ISO 14001:2015 para la pequeña empresa: ( ed.). AENOR - Asociación Española de Normalización y Certificación. 
+              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/271461" target="_blank" rel="noopener noreferrer") Abad, F. (Coord.). (2014). Dentro de 15 años: ¿Escenarios improbables?: (1 ed.). LID Editorial España.
 
-            //- Referencia sin enlace 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Organización Internacional de Normalización. (2015). Sistemas de gestión de la calidad—Requisitos con orientación para su uso (ISO 9001).
-            
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/42001" target="_blank" rel="noopener noreferrer") Bas Amorós, E. (2013). Prospectiva e innovación (Vol. 1: visiones): ( ed.). Plaza y Valdés (España).
+
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span Organización Internacional de Normalización. (2015). Sistemas de gestión ambiental- Requisitos con orientación para su uso (ISO 14001).
-            //- Referencia de youtube 
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/217714" target="_blank" rel="noopener noreferrer") Boada, A. J. & Cardona Montoya, G. Y. M. (2020). La prospectiva: más allá de las proyecciones: (1 ed.). Fondo Editorial CEIPA.
+
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://open.spotify.com/episode/6UwAofmRsGQxRtJpbAZHXa?si=LcJX7r3PRjqBZiVBfJmbCA" target="_blank" rel="noopener noreferrer") Cómo generar cultura preventiva desde la base Spotify. (s. f.). 
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/75568" target="_blank" rel="noopener noreferrer") Chávez Martínez, G. (2003). El pensamiento del estratega: ( ed.). Plaza y Valdés (México).
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/71774" target="_blank" rel="noopener noreferrer") López Fernández, R. (2016). Expertos y prospectiva en la investigación pedagógica: ( ed.). Editorial Universitaria Sur.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/75157" target="_blank" rel="noopener noreferrer") López Segrera, F. Luis Grosso, J. (Coord.) & José Mojica, F. (Coord.). (2004). América Latina y el Caribe en el siglo XXI: perspectiva y prospectiva de la globalización: ( ed.). Editorial Miguel Ángel Porrúa.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/228417" target="_blank" rel="noopener noreferrer") Perilla Maluche, R. B. Pijuela Garzón, W. A. & Parra Moreno, C. (2020). Análisis de futuro: algunos métodos alternativos a la "caja de herramientas" de la prospectiva histórica: (1 ed.). Sello Editorial Universidad del Tolima.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/59107" target="_blank" rel="noopener noreferrer") Sánchez González, M. (2018). Gestión estratégica, innovación y prospectiva en comunicación: bases, técnicas y casos prácticos: ( ed.). Editorial UOC.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/120296" target="_blank" rel="noopener noreferrer") Saldaña Almazán, J. & Niño Gutiérrez, N. S. (2017). Strategic planning at UAGro: ( ed.). Ediciones y Gráficos Eón.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

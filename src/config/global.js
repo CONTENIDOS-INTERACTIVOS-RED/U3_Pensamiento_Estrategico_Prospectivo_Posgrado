@@ -1,8 +1,7 @@
 export default {
   global: {
     numeroUnidad: '3',
-    tituloUnidad:
-      'Estrategias para la implementación de Sistema de Gestión de Seguridad y Salud en el Trabajo',
+    tituloUnidad: 'Innovación estratégica y desarrollo sostenible',
   },
   menuPrincipal: {
     menu: [
@@ -79,94 +78,114 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Acciones correctivas',
+      termino: 'Adaptabilidad',
       significado:
-        'medidas implementadas para abordar situaciones que ya han ocurrido, con el fin de evitar su repetición en el futuro.',
+        'capacidad de ajustarse eficazmente a cambios en el entorno, manteniendo competitividad.',
     },
     {
-      termino: 'Capacitación',
+      termino: 'Análisis Delphi',
       significado:
-        'proceso formativo que proporciona a los trabajadores los conocimientos y habilidades necesarios para realizar su trabajo de manera segura.',
+        'método para alcanzar consenso mediante consultas iterativas a expertos, útil en prospectiva.',
     },
     {
-      termino: 'Comunicación efectiva',
+      termino: 'Análisis PESTEL',
       significado:
-        'proceso de intercambiar información de manera clara y accesible entre todos los miembros de la organización.',
+        'herramienta que evalúa factores Políticos, Económicos, Sociales, Tecnológicos, Ecológicos y Legales.',
     },
     {
-      termino: 'Cultura de seguridad',
+      termino: '<em>Brainstorming</em>',
       significado:
-        'conjunto de valores, creencias y comportamientos que determinan cómo se aborda la seguridad y salud en el trabajo en una organización.',
+        'técnica de generación de ideas en grupo que fomenta creatividad y soluciones innovadoras.',
     },
     {
-      termino: 'Evaluación de la gestión',
+      termino: 'Cadenas de Suministro',
       significado:
-        'proceso de revisión y análisis del desempeño del SG-SST que permite identificar logros y áreas de mejora.',
+        'red que gestiona el flujo de productos o servicios desde la producción hasta el cliente final.',
     },
     {
-      termino: 'Evaluación de riesgos',
+      termino: '<em>Design Thinking</em>',
       significado:
-        'metodología utilizada para analizar y determinar el nivel de riesgo asociado con una situación específica en el entorno laboral.',
+        'enfoque de resolución de problemas que combina creatividad, empatía y estructura.',
     },
     {
-      termino: 'Identificación de peligros',
+      termino: 'Economía Circular',
       significado:
-        'proceso de reconocimiento de cualquier fuente, situación o acto que pueda causar lesiones o daños a la salud.',
+        'modelo que promueve la reutilización de recursos, minimizando desechos y optimizando ciclos de vida.',
     },
     {
-      termino: 'Indicadores de desempeño',
+      termino: 'Economía Verde',
       significado:
-        'métricas utilizadas para evaluar el cumplimiento de los objetivos y la efectividad de las acciones implementadas en seguridad y salud.',
+        'estrategia de desarrollo sostenible enfocada en reducir el impacto ambiental de las actividades económicas.',
     },
     {
-      termino: 'Mejora continua',
+      termino: 'Escenarios Exploratorios',
       significado:
-        'proceso sistemático que busca incrementar la eficacia y eficiencia de los programas de SST mediante la revisión constante y la implementación de mejoras',
+        'modelos que proyectan futuros posibles basados en tendencias e incertidumbres actuales.',
     },
     {
-      termino: 'Monitoreo',
+      termino: 'Escenarios Normativos',
       significado:
-        'proceso de seguimientos constantes de las condiciones de trabajo y del funcionamiento de los programas de SST, que permite identificar desviaciones y oportunidades de mejora.',
+        'modelos de futuros deseados que reflejan objetivos estratégicos específicos.',
     },
     {
-      termino: 'Normativa',
+      termino: 'Escenarios Prospectivos',
       significado:
-        'conjunto de leyes, regulaciones y estándares que rigen la seguridad y salud en el trabajo.',
+        'proyecciones de futuros posibles que ayudan a guiar la planificación estratégica.',
     },
     {
-      termino: 'Objetivos y metas',
+      termino: '<em>Feedback</em>',
       significado:
-        'declaraciones específicas que guían las acciones en materia de seguridad y salud, deben ser medibles y alcanzables.',
+        'proceso continuo de revisión y ajuste basado en resultados, mejora la toma de decisiones.',
     },
     {
-      termino: 'Participación de los trabajadores',
+      termino: 'Gestión del Riesgo',
       significado:
-        'involucramiento activo de los empleados en la identificación de riesgos y en la formulación de soluciones en materia de seguridad y salud.',
+        'identificación y mitigación de riesgos para asegurar el logro de objetivos estratégicos.',
     },
     {
-      termino: 'Plan de emergencias',
+      termino: 'Innovación Abierta',
       significado:
-        'conjunto de acciones a seguir en caso de una situación crítica que ponga en riesgo la seguridad de los trabajadores, como incendios o desastres naturales.',
+        'estrategia que fomenta la colaboración con agentes externos para desarrollar nuevas ideas y soluciones.',
     },
     {
-      termino: 'Prevención de riesgos',
+      termino: 'Innovación Disruptiva',
       significado:
-        'conjunto de acciones destinadas a evitar o reducir la ocurrencia de incidentes y accidentes en el trabajo.',
+        'innovación que transforma sectores mediante productos o servicios accesibles y revolucionarios.',
     },
     {
-      termino: 'Programa de inducción',
+      termino: 'Innovación Estratégica',
       significado:
-        'sesiones iniciales de formación que introducen a los nuevos empleados a la cultura de seguridad de la organización y a sus políticas y procedimientos.',
+        'proceso de desarrollo de nuevas ideas para fortalecer la competitividad y adaptarse al entorno.',
     },
     {
-      termino: 'Riesgo',
+      termino: 'Mapa Mental',
       significado:
-        'probabilidad de que ocurra un evento que pueda causar daño o lesión a los trabajadores.',
+        'herramienta visual que organiza ideas de manera no lineal, fomentando la creatividad.',
     },
     {
-      termino: 'Sistema de gestión de seguridad y salud en el trabajo',
+      termino: 'Responsabilidad Social Corporativa (RSC)',
       significado:
-        'conjunto de elementos interrelacionados que permiten gestionar de manera efectiva los riesgos para la seguridad y salud de los trabajadores en una organización.',
+        'compromiso de la empresa con prácticas éticas que beneficien la sociedad y el medio ambiente.',
+    },
+    {
+      termino: 'SCAMPER',
+      significado:
+        'técnica que estimula la creatividad mediante Sustituir, Combinar, Adaptar, Modificar, Poner en otro uso, Eliminar y Reordenar.',
+    },
+    {
+      termino: '<em>Six Thinking Hats</em>',
+      significado:
+        'método de toma de decisiones que explora perspectivas mediante seis tipos de pensamiento.',
+    },
+    {
+      termino: 'Sostenibilidad',
+      significado:
+        'enfoque que equilibra crecimiento económico, equidad social y protección ambiental a largo plazo.',
+    },
+    {
+      termino: '<em>World</em> Café',
+      significado:
+        'técnica de diálogo colaborativo que permite explorar ideas en grupos pequeños y conectar aportes.',
     },
   ],
 }
