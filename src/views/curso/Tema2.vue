@@ -22,7 +22,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7
             h2.mb-4(data-aos="flip-up") Definición y estrategias claves 
-            p.mb-4(data-aos="fade-right") El desarrollo sostenible es un pilar fundamental para las organizaciones que buscan equilibrar el crecimiento económico con la protección del medio ambiente y la equidad social. En el PDF      Definición y estrategias claves , se estudiarán las definiciones clave, estrategias efectivas y ejemplos prácticos de sostenibilidad corporativa, incluyendo casos de éxito como Heineken y Grupo Bimbo. Con un enfoque en la Responsabilidad Social Corporativa (RSC), se explorará cómo las empresas pueden optimizar sus operaciones, fortalecer su reputación y generar impacto positivo en las comunidades y el entorno.
+            p.mb-4(data-aos="fade-right") El desarrollo sostenible es un pilar fundamental para las organizaciones que buscan equilibrar el crecimiento económico con la protección del medio ambiente y la equidad social. En el PDF      Definición y estrategias claves, se estudiarán las definiciones clave, estrategias efectivas y ejemplos prácticos de sostenibilidad corporativa, incluyendo casos de éxito como Heineken y Grupo Bimbo. Con un enfoque en la Responsabilidad Social Corporativa (RSC), se explorará cómo las empresas pueden optimizar sus operaciones, fortalecer su reputación y generar impacto positivo en las comunidades y el entorno.
 
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
@@ -45,39 +45,15 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/271461" target="_blank" rel="noopener noreferrer") Abad, F. (Coord.). (2014). Dentro de 15 años: ¿Escenarios improbables?: (1 ed.). LID Editorial España.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/42001" target="_blank" rel="noopener noreferrer") Bas Amorós, E. (2013). Prospectiva e innovación (Vol. 1: visiones): ( ed.). Plaza y Valdés (España).
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/217714" target="_blank" rel="noopener noreferrer") Boada, A. J. & Cardona Montoya, G. Y. M. (2020). La prospectiva: más allá de las proyecciones: (1 ed.). Fondo Editorial CEIPA.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/75568" target="_blank" rel="noopener noreferrer") Chávez Martínez, G. (2003). El pensamiento del estratega: ( ed.). Plaza y Valdés (México).
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/71774" target="_blank" rel="noopener noreferrer") López Fernández, R. (2016). Expertos y prospectiva en la investigación pedagógica: ( ed.). Editorial Universitaria Sur.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/75157" target="_blank" rel="noopener noreferrer") López Segrera, F. Luis Grosso, J. (Coord.) & José Mojica, F. (Coord.). (2004). América Latina y el Caribe en el siglo XXI: perspectiva y prospectiva de la globalización: ( ed.). Editorial Miguel Ángel Porrúa.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/228417" target="_blank" rel="noopener noreferrer") Perilla Maluche, R. B. Pijuela Garzón, W. A. & Parra Moreno, C. (2020). Análisis de futuro: algunos métodos alternativos a la "caja de herramientas" de la prospectiva histórica: (1 ed.). Sello Editorial Universidad del Tolima.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/59107" target="_blank" rel="noopener noreferrer") Sánchez González, M. (2018). Gestión estratégica, innovación y prospectiva en comunicación: bases, técnicas y casos prácticos: ( ed.). Editorial UOC.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/120296" target="_blank" rel="noopener noreferrer") Saldaña Almazán, J. & Niño Gutiérrez, N. S. (2017). Strategic planning at UAGro: ( ed.). Ediciones y Gráficos Eón.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/live/vIx1wbOXGyQ?si=EcKGOSHqkBw-cQj9" target="_blank" rel="noopener noreferrer") Fundación OSDE (2021, 2 de diciembre) Sustentabilidad y responsabilidad social [video] YouTube
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.rochiconsulting.com/blog/sostenibilidad-y-responsabilidad-social/" target="_blank" rel="noopener noreferrer") Investigación de Mercado Centrada en la Sostenibilidad y Responsabilidad Social [blog] ROCHI
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

@@ -7,7 +7,8 @@
       .row.justify-content-center.align-items-center
         .col-lg
           .p-4
-            p.mb-0(data-aos="fade-up") La construcción de escenarios es una de las herramientas más utilizadas en el análisis prospectivo. Este enfoque fue popularizado por Herman Kahn, pionero de los estudios de prospectiva en la RAND Corporation, durante la década de 1950, y más tarde desarrollado en instituciones como el Instituto de Prospectiva de París. Los escenarios se emplean para explorar futuros alternativos que permitan anticipar riesgos, identificar oportunidades y definir estrategias adaptativas (Kahn & Wiener, 1967).
+            p.mb-0(data-aos="fade-up") La innovación y la creatividad, son pilares esenciales para el diseño de estrategias que permitan a las organizaciones enfrentar un entorno empresarial en constante cambio y promover el desarrollo sostenible. En este contexto, las empresas deben incorporar procesos innovadores que no solo generen valor económico, sino que también consideren impactos positivos en la sociedad y el medio ambiente. (Bas Amorós, 2013)
+
         .col-lg-auto
           figure
             img(src='@/assets/curso/tema1/1.png', alt='')
@@ -341,7 +342,7 @@
 
                 .bg-color-white.box-shadow.p-3(x="0%" y="28%" numero="1")
                   h5 Sombrero blanco (hechos y datos)
-                  p Este sombrero se centra en la información objetiva y los hechos. Los participantes se enfocan en los datos disponibles, las cifras y la información verificada, y consideran qué información adicional podría ser necesaria para tomar una decisión informada.Ejemplo. "¿Qué datos tenemos sobre la viabilidad económica de este proyecto? ¿Qué información nos falta para hacer una evaluación completa?"
+                  p Este sombrero se centra en la información objetiva y los hechos. Los participantes se enfocan en los datos disponibles, las cifras y la información verificada, y consideran qué información adicional podría ser necesaria para tomar una decisión informada. Ejemplo: "¿Qué datos tenemos sobre la viabilidad económica de este proyecto? ¿Qué información nos falta para hacer una evaluación completa?"
 
 
                 .bg-color-white.box-shadow.p-3(x="30%" y="28%" numero="2")
@@ -510,41 +511,20 @@
           .col-12.col-md-6.col-lg-7
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/271461" target="_blank" rel="noopener noreferrer") Abad, F. (Coord.). (2014). Dentro de 15 años: ¿Escenarios improbables?: (1 ed.). LID Editorial España.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/42001" target="_blank" rel="noopener noreferrer") Bas Amorós, E. (2013). Prospectiva e innovación (Vol. 1: visiones): ( ed.). Plaza y Valdés (España).
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/217714" target="_blank" rel="noopener noreferrer") Boada, A. J. & Cardona Montoya, G. Y. M. (2020). La prospectiva: más allá de las proyecciones: (1 ed.). Fondo Editorial CEIPA.
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/BLk8agomRpM?si=YVZIY2hVQqLly8QP" target="_blank" rel="noopener noreferrer") Universidad continental (2021, 16 de diciembre) Estrategias de creatividad e innovación de valor para el desarrollo empresarial - U3. [video] YouTube.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/75568" target="_blank" rel="noopener noreferrer") Chávez Martínez, G. (2003). El pensamiento del estratega: ( ed.). Plaza y Valdés (México).
+              a(href="https://www.redalyc.org/journal/6139/613964506006/html/" target="_blank" rel="noopener noreferrer") Zuluaga E. (2018) Creatividad e innovación: Motores de desarrollo empresarial. [blog]
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/71774" target="_blank" rel="noopener noreferrer") López Fernández, R. (2016). Expertos y prospectiva en la investigación pedagógica: ( ed.). Editorial Universitaria Sur.
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/75157" target="_blank" rel="noopener noreferrer") López Segrera, F. Luis Grosso, J. (Coord.) & José Mojica, F. (Coord.). (2004). América Latina y el Caribe en el siglo XXI: perspectiva y prospectiva de la globalización: ( ed.). Editorial Miguel Ángel Porrúa.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/228417" target="_blank" rel="noopener noreferrer") Perilla Maluche, R. B. Pijuela Garzón, W. A. & Parra Moreno, C. (2020). Análisis de futuro: algunos métodos alternativos a la "caja de herramientas" de la prospectiva histórica: (1 ed.). Sello Editorial Universidad del Tolima.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/59107" target="_blank" rel="noopener noreferrer") Sánchez González, M. (2018). Gestión estratégica, innovación y prospectiva en comunicación: bases, técnicas y casos prácticos: ( ed.). Editorial UOC.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/120296" target="_blank" rel="noopener noreferrer") Saldaña Almazán, J. & Niño Gutiérrez, N. S. (2017). Strategic planning at UAGro: ( ed.). Ediciones y Gráficos Eón.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

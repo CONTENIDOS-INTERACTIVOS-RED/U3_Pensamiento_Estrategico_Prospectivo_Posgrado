@@ -26,19 +26,25 @@
       .col-lg-8
         LineaTiempoD.color-primario.large(data-aos="fade-left")
           div(numero="1" titulo="Análisis de factibilidad económica")
-            p Este análisis se enfoca en el retorno de la inversión (ROI), los costos asociados, y la escalabilidad de la estrategia. Según Sánchez González (2018), "una evaluación financiera sólida es esencial para asegurar la sostenibilidad económica a largo plazo". Herramientas como el análisis de flujo de caja descontado, permiten prever los beneficios futuros y determinar si los recursos financieros serán suficientes.
+            p Este análisis se enfoca en el retorno de la inversión (ROI), los costos asociados, y la escalabilidad de la estrategia. Según Sánchez González (2018), “una evaluación financiera sólida es esencial para asegurar la sostenibilidad económica a largo plazo” (p. 45). Herramientas como el análisis de flujo de caja descontado, permiten prever los beneficios futuros y determinar si los recursos financieros serán suficientes.
 
           div(numero="2" titulo="Impacto ambiental y social")
-            p Evaluar los efectos ambientales y sociales, implica medir la huella de carbono y los beneficios para las comunidades locales. Boada y Cardona Montoya (2020), destacan que "el éxito de una estrategia a largo plazo depende de su capacidad para generar un impacto positivo en el entorno y en las personas afectadas". El cumplimiento de las regulaciones ambientales y la aceptación por parte de las comunidades son cruciales para la viabilidad.
+            p Evaluar los efectos ambientales y sociales, implica medir la huella de carbono y los beneficios para las comunidades locales. Boada y Cardona Montoya (2020), destacan que “el éxito de una estrategia a largo plazo depende de su capacidad para generar un impacto positivo en el entorno y en las personas afectadas” (p. 78). El cumplimiento de las regulaciones ambientales y la aceptación por parte de las comunidades, son esenciales para la viabilidad.
 
           div(numero="3" titulo="Análisis de riesgos y oportunidades")
-            p La identificación y gestión de riesgos ayuda a preparar a la organización para enfrentar desafíos futuros. Bas Amorós (2013), sugiere que "las empresas deben anticipar cambios regulatorios y tecnológicos, creando planes de mitigación que protejan sus estrategias". Al mismo tiempo, identificar oportunidades como avances tecnológicos o incentivos gubernamentales, puede fortalecer la estrategia.
+            p La identificación y gestión de riesgos ayuda a preparar a la organización para enfrentar desafíos futuros. Bas Amorós (2013), sugiere que “las empresas deben anticipar cambios regulatorios y tecnológicos, creando planes de mitigación que protejan sus estrategias” (p. 92). Al mismo tiempo, identificar oportunidades como avances tecnológicos o incentivos gubernamentales, puede fortalecer la estrategia.
 
           div(numero="4" titulo="Simulación de escenarios y análisis de sensibilidad")
-            p Utilizar simulaciones permite prever cómo las variaciones en las condiciones de mercado, podrían afectar la estrategia. El análisis de sensibilidad, como menciona López Segrera et al. (2004), "es vital para entender qué variables son críticas y cómo pequeños cambios pueden tener un impacto significativo".
+            p Utilizar simulaciones permite prever cómo las variaciones en las condiciones de mercado, podrían afectar la estrategia. El análisis de sensibilidad, como menciona López Segrera et al. (2004), “es vital para entender qué variables son críticas y cómo pequeños cambios pueden tener un impacto significativo” (p. 112).
 
           div(numero="5" titulo="Consulta y retroalimentación de <em>stakeholders</em>")
-            p La participación de las partes interesadas es crucial. López Fernández (2016), enfatiza que "la retroalimentación de los <em>stakeholders</em> aporta una perspectiva externa que puede revelar aspectos que no se habían considerado internamente". Asegurar la transparencia y mantener una comunicación abierta con los <em>stakeholders</em>, ayuda a ganar su apoyo.
+            p Fernández (2016), enfatiza que “la retroalimentación de los <em>stakeholders</em> aporta una perspectiva externa que puede revelar aspectos que no se habían considerado internamente” (p. 53). Asegurar la transparencia y mantener una comunicación abierta con los <em>stakeholders</em>, ayuda a ganar su apoyo.
+
+    
+    .bg-full-width.border-top.actividad.bg-color-actividad.mb-0
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -49,39 +55,15 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/271461" target="_blank" rel="noopener noreferrer") Abad, F. (Coord.). (2014). Dentro de 15 años: ¿Escenarios improbables?: (1 ed.). LID Editorial España.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/42001" target="_blank" rel="noopener noreferrer") Bas Amorós, E. (2013). Prospectiva e innovación (Vol. 1: visiones): ( ed.). Plaza y Valdés (España).
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/217714" target="_blank" rel="noopener noreferrer") Boada, A. J. & Cardona Montoya, G. Y. M. (2020). La prospectiva: más allá de las proyecciones: (1 ed.). Fondo Editorial CEIPA.
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/75568" target="_blank" rel="noopener noreferrer") Chávez Martínez, G. (2003). El pensamiento del estratega: ( ed.). Plaza y Valdés (México).
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/lTBKkZwU9mM?si=I4xR2JL0-l57o6Oy" target="_blank" rel="noopener noreferrer") EOI (2013, 27 de mayo) Ecoinnovación (RSC) y Competitividad. [video] YouTube.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/71774" target="_blank" rel="noopener noreferrer") López Fernández, R. (2016). Expertos y prospectiva en la investigación pedagógica: ( ed.). Editorial Universitaria Sur.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/75157" target="_blank" rel="noopener noreferrer") López Segrera, F. Luis Grosso, J. (Coord.) & José Mojica, F. (Coord.). (2004). América Latina y el Caribe en el siglo XXI: perspectiva y prospectiva de la globalización: ( ed.). Editorial Miguel Ángel Porrúa.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/228417" target="_blank" rel="noopener noreferrer") Perilla Maluche, R. B. Pijuela Garzón, W. A. & Parra Moreno, C. (2020). Análisis de futuro: algunos métodos alternativos a la "caja de herramientas" de la prospectiva histórica: (1 ed.). Sello Editorial Universidad del Tolima.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/59107" target="_blank" rel="noopener noreferrer") Sánchez González, M. (2018). Gestión estratégica, innovación y prospectiva en comunicación: bases, técnicas y casos prácticos: ( ed.). Editorial UOC.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/en/lc/tecnologicadeloriente/titulos/120296" target="_blank" rel="noopener noreferrer") Saldaña Almazán, J. & Niño Gutiérrez, N. S. (2017). Strategic planning at UAGro: ( ed.). Ediciones y Gráficos Eón.
+              a(href="https://www.obsbusiness.school/blog/estudio-de-viabilidad-de-un-proyecto-estructura-e-importancia" target="_blank" rel="noopener noreferrer") Pérez A. (2021) Estudio de viabilidad de un proyecto: ¿qué es y cómo hacerlo?  Bussines school [blog]
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
@@ -98,3 +80,191 @@ export default {
   },
 }
 </script>
+
+<script>
+import Actividad from '@/components/actividad/Actividad.vue'
+export default {
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Pensamiento estratégico y prospectivo',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto: '¿Qué se busca con el desarrollo sostenible?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Maximizar beneficios económicos exclusivamente.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Equilibrar crecimiento económico, protección ambiental y bienestar social.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Reducir la participación comunitaria en proyectos organizacionales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Descartar el uso de energías renovables.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El desarrollo sostenible busca equilibrar el crecimiento económico, la protección ambiental y el bienestar social.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa el concepto de desarrollo sostenible.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué empresa es un ejemplo destacado de economía circular en la moda?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              { id: 'a', texto: 'Tesla.', esCorrecta: false },
+              { id: 'b', texto: 'Ecoalf.', esCorrecta: true },
+              { id: 'c', texto: 'Amazon.', esCorrecta: false },
+              { id: 'd', texto: 'Microsoft.', esCorrecta: false },
+            ],
+            mensaje_correcto:
+              '¡Correcto! Ecoalf es un ejemplo destacado de economía circular en la moda.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa ejemplos de economía circular en la moda.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Qué impacto genera la responsabilidad social corporativa (RSC) en la sostenibilidad?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Aumenta exclusivamente la rentabilidad a corto plazo.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Promueve prácticas éticas y mejora la relación con comunidades.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Reduce la importancia de cumplir con normativas ambientales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Limita la creatividad en procesos organizacionales.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La RSC promueve prácticas éticas y mejora la relación con comunidades.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa el impacto de la RSC en la sostenibilidad.',
+          },
+          {
+            id: 4,
+            texto: '¿Qué componente clave incluye el desarrollo sostenible?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Sostenibilidad ambiental.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Reducción exclusiva de costos operativos.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Dependencia de recursos no renovables.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Planificación interna aislada.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! La dependencia de recursos no renovables es un componente clave a considerar en el desarrollo sostenible.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los componentes clave del desarrollo sostenible.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Qué estrategia fomenta la sostenibilidad en las cadenas de suministro?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Aumento de transporte de alta emisión.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Reducción de prácticas colaborativas.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Priorizar proveedores con prácticas sostenibles.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Exclusión de objetivos ambientales.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! Priorizar proveedores con prácticas sostenibles fomenta la sostenibilidad en las cadenas de suministro.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa las estrategias para fomentar la sostenibilidad en las cadenas de suministro.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+}
+</script>
+
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
